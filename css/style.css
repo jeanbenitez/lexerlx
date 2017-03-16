@@ -1,0 +1,53 @@
+*{
+	font-family: "Segoe UI Light", "Trebuchet MS", Arial, sans-serif;
+	font-size: 20px;
+}
+
+div#formulario div{
+  margin: 5px;
+}
+
+div#formulario p{
+	display: inline-block;
+	width: 200px;
+	margin: 0;
+}
+
+div#formulario select, div#formulario input{
+	width:250px;
+	margin-left: -5px;
+}
+
+div#datos{
+  display:none;
+  padding: 30px;
+  width: 400px;
+  margin: 30px;
+  background-color: #CCC;
+  text-transform: uppercase;
+  border: 1px solid #333;
+}
+
+td, th{
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+pre{
+  float: left;
+}
+
+table{
+  display: block;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+table.lexer{
+  float: right;
+}
+table.lexer2{
+  float: left;
+  position: relative;
+  left: 20px;
+}
